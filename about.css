@@ -60,10 +60,10 @@ body{
 
 
 }
-
-img{
+.guitar{
     height: 300px;
 }
+
 .footer{
     background-color: rgb(255, 183, 58);
     width: 100%;
@@ -154,18 +154,10 @@ margin-bottom: 100px;
     right: 100px;
     top: 970px;
 }
-.bg1{
-    width: 1320px;
-    position: absolute;
-    padding: 0px;
-    z-index: -1;
-    left: 0px;
-    top: 1900px;
-    opacity: 80%;
-}
+
 .bg2{
     transform: scale(-1,-1);
-    width: 1320px;
+    width: 1120px;
     position: absolute;
     padding: 0px;
     z-index: -1;
