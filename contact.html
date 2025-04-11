@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="contact.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact</title>
+</head>
+<body>
+    <nav class="navbar">
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="contact.html">Contact Us</a></li>
+            <li><a href="gallery.html">Gallery</a></li>
+            <li><h1 class="header">oj</h1></li>
+            <li><a href="shop.html">Shop</a></li>
+            <li><a href="about.html">About Me</a></li>
+            <li><a href="index.html"></a></li>
+        </ul>
+    </nav>
+    <img  class=bg1 src="bg1.png" alt="">
+    <img  class=bg2 src="bg1.png" alt="">
+    <div class="hometext"><button></button><h1>Want to get in Touch with Us?</h1>
+       </div>
+       <div class="contact">
+        <h2>Request a call.</h2>
+        <p>Give us some info so the right person can get back to you</p>
+        <form action="">
+        <input type="" placeholder="First Name" value="" id="FirstName">
+        <input type="text" placeholder="Last Name" value="" id="LastName"> <br>
+        <input style="width: 408px;" type="email" placeholder="Email" style="width: 367px;" value="" id="Email"> <br>
+        <input style="width: 408px;" type="text" placeholder="Phone" value="" id="Phone"> 
+        <button><input style="background-color: transparent" class="submit" type="submit" value="Submit" id="Submit" onclick="checkInput1()"></button>
+            <script>
+                function checkInput1() {
+            const input = document.getElementById("FirstName").value;
+            const input2= document.getElementById("LastName").value;
+            const input3 = document.getElementById("Email").value;
+            const input4 = document.getElementById("Phone").value;
+            if (input === "" || input2=="" || input3=="" || input4=="") {
+                alert("Please fill out the input field!");
+            }
+            else{
+                alert("Credentials has been sent we will shortly get back to you")
+            }
+        }
+            </script>
+    </form>
+       </div>
+       <div class="call-us">
+        <h2>Give us a call</h2>
+        <h2>+977 1234567890</h2>
+        <a href="">Not in Nepal? Find your local office</a>
+       </div>
+       <div class="chat">
+        <h2>Chat with us</h2>
+        <p>Get product info and help with login issues and other</p>
+        <button>Lets Chat</button>
+       </div>
+       <div class="feedback">
+        <h2>Leave us some feedback</h2>
+        <p>Whether its good or bad we'd love to heard from you!</p>
+        <input type="text" name="" id="feedback" placeholder="Your feedback goes here...">
+        <button type="submit" onclick="checkInput()">Submit</button>
+        <script>
+            function checkInput() {
+            const input = document.getElementById("feedback").value;
+            if (input === "") {
+                alert("Please fill out the input field!");
+            }
+            else{
+                alert("Feedback has been sent!")
+            }
+        }
+        </script>
+    </div>
+       <div class="footer">
+        <nav>
+            <h1>The brand for <br> healthy People</h1>
+            <div class="follow">
+            <h2>Follow us</h2>
+            <p class="maptext2">  <br>
+            <a href="https://www.instagram.com/not.kalpe/" target="_blank"><img class= "instagram" src="instagram.png" alt=""></a>
+            <a href="https://github.com/Kalpe-001" target="_blank"><img class= "github" src="github.png" alt=""></a>
+            <a href="https://www.linkedin.com/in/abhikalp-khatri-61ba57282/" target="_blank"><img class= "linkedin" src="linkedin.png" alt=""></a></p>
+        </div>
+            <a href="https://www.google.com/maps/place/The+British+College,+Kathmandu/@27.6921341,85.3169434,17z/data=!3m1!4b1!4m6!3m5!1s0x39eb19b19295555f:0xabfe5f4b310f97de!8m2!3d27.6921341!4d85.3195183!16s%2Fg%2F11bw8f8gc4?entry=ttu&g_ep=EgoyMDI1MDQwNy4wIKXMDSoASAFQAw%3D%3D" target="_blank"><img class="map" src="map.jpg" alt=""></a>
+            <p class="maptext">Where we're Located <br> <br>
+            Thapathali <br>
+            Trade Tower <br>
+            3rd Floor <br>
+            Mobile: +977 1234567890 <br>
+            Email: kabhikalp24@tbc.edu.np<br>
+            </p>
+        </nav>
+       </div>
+       <p class="copyright">© 2025 oj Nepal, Inc. All rights reserved.</p>
+</body>
+</html>
